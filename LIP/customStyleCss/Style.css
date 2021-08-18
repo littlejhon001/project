@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    background: url("../img/login/elearning-banner-blog.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    padding: 20px 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+    background-color: #cfe8fee1;
+}
+
+h1 {
+    color: #000000;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 2px #f5cb5b;
+}
+
+.control input {
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    outline: none;
+    margin: 1em 0;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.control .btn {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    background: #1371a4;
+    opacity: .7;
+    transition: opacity .3s ease;
+    box-shadow: 3px 6px 6px 6px rgba(0, 0, 0, 0.19);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.btn:hover {
+    background-color: rgb(224, 38, 38);
+}
+
+.btn:focus {
+    opacity: 1;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: .7;
+}
+
+a:hover {
+    color: rgb(223, 24, 24);
+    /* transition-duration: 1s; */
+}
+
+a:hover {
+    opacity: 1;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+@media (min-width: 320px) and (max-width:465px) {
+    h1 {
+        color: rgb(0, 0, 0);
+    }
+    section {
+        background-image: url(../img/login/mobile.jpeg);
+    }
+    .form-container {
+        left: 50%;
+        width: 330px;
+        background-color: #cfe8fee1;
+    }
+    .control .btn {
+        background-color: #6e9e7c;
+    }
+}
+
+@media (min-width:466px) and (max-width:768px) {
+    /* .form-container {
+        left: 30%;
+    } */
+    section {
+        background-image: url(../img/login/fonsoTablet.jpeg);
+    }
+    .form-container {
+        left: 50%;
+        background-color: #cfe8fee1;
+    }
+    .control .btn {
+        background-color: #ef8f2e;
+    }
+}

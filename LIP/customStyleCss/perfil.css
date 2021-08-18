@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+.contenedor {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor1 img {
+    width: 70px;
+    height: 90px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.contenedor1 h1 {
+    margin-top: 20px;
+}
+
+.contenedor1 {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.contenedor1 h2 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.contenedor1 h2 a {
+    text-decoration: none;
+    color: teal;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.caja1 {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px;
+}
+
+.caja2 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: ; */
+    font-size: 20px;
+}
+
+.caja2 label {
+    text-align: left;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.caja2 input {
+    /* padding-top: 1px 2px 3px; */
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    width: 90%;
+    font-size: 20px;
+}
+
+
+/* 
+.caja2 {
+    margin-top: 20px;
+    padding: 20px;
+} */
+
+.btn-save input {
+    background-color: #c5d4db;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    border-radius: 15px;
+    border: solid 1px black;
+    font-size: 18px;
+}
+.Gperfil input{
+    background-color: #1785c0;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    border-radius: 2px;
+    border: solid 1px black;
+    font-size: 25px;
+}
+.Gperfil{
+    text-align: center;
+    padding-top: -10px;
+    margin: 10px;
+}
+.btn-save {
+    text-align: center;
+    padding-top: -10px;
+    margin: 10px;
+}
+
+.caja2 h2 {
+    font-size: 18px;
+}
+
+.caja-2 {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caja-3 {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor1 {
+    margin: 10px;
+}
+
+.caja-2-3 {
+    margin: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 5px;
+}
+
+
+/* responsive */
+
+@media (min-width: 320px) and (max-width:465px) {
+    .formulario {
+        flex-direction: column;
+        margin: 5px;
+        padding: 5px;
+        padding-top: 0px;
+    }
+    .caja2 input {
+        margin: 0px;
+        padding: 0px;
+    }
+    .caja2 {
+        margin: 0px;
+    }
+    .caja1 {
+        margin: 0px;
+        padding: 0px;
+        height: 700px;
+    }
+    .contenedor h2 a {
+        font-size: 20px;
+        text-align: center;
+    }
+    .contenedor1 {
+        width: 100%;
+    }
+    .contenedor {
+        margin-top: 10px;
+    }
+    .contenedor img {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:466px) and (max-width:768px) {
+    .caja1 {
+        height: auto;
+    }
+    .contenedor1 h2 a {
+        text-decoration: none;
+        color: teal;
+        margin: 2px;
+        margin-left: 10px;
+    }
+    .formulario {
+        flex-direction: column;
+        margin: 5px;
+        padding: 5px;
+        padding-top: 0px;
+    }
+    .caja2 {
+        padding: 0px;
+    }
+}
